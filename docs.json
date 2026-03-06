@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "sequoia",
-  "name": "Mint Starter Kit",
+  "name": "PuntHub Knowledge Center",
   "colors": {
     "primary": "#0f00ad",
     "light": "#ffffff",
     "dark": "#000000"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/punthublogo-1.PNG",
   "navigation": {
     "global": {
       "anchors": [
@@ -32,7 +32,7 @@
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "verification"
             ]
           },
           {
@@ -41,7 +41,7 @@
             "tag": "New",
             "pages": [
               "essentials/settings",
-              "essentials/navigation"
+              "affiliates/requirements"
             ]
           },
           {
@@ -64,9 +64,8 @@
         ]
       },
       {
-        "tab": "API Integrations & Backend Architecture",
+        "tab": "Whitepaper 2026/27",
         "icon": "boxes-stacked",
-        "hidden": true,
         "groups": [
           {
             "group": "API documentation",
@@ -118,10 +117,59 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+      "x": "https://x.com/punthub.fun",
+      "linkedin": "https://linkedin.com/company/mintlify",
+      "medium": "https://gravitas.medium.com",
+      "facebook": "https://facebook.com/punthub.fun"
+    },
+    "links": [
+      {
+        "header": "Quick Links",
+        "items": [
+          {
+            "label": "Company Profile",
+            "href": "/about"
+          },
+          {
+            "label": "Whitepaper 2026/27",
+            "href": "/whitepaper"
+          },
+          {
+            "label": "Affiliate Program",
+            "href": "/affiliates"
+          },
+          {
+            "label": "Feedback/Reports",
+            "href": "/contact"
+          }
+        ]
+      },
+      {
+        "header": "Legal Stuff",
+        "items": [
+          {
+            "label": "Terms",
+            "href": "/terms"
+          },
+          {
+            "label": "Privacy",
+            "href": "/privacy"
+          },
+          {
+            "label": "Refunds",
+            "href": "/refunds"
+          },
+          {
+            "label": "Cookies",
+            "href": "/cookies"
+          },
+          {
+            "label": "Disclaimer",
+            "href": "/disclaimer"
+          }
+        ]
+      }
+    ]
   },
   "background": {
     "decoration": "gradient"
@@ -140,5 +188,21 @@
   "banner": {
     "content": "Need help? Drop us an email at help@punthub.fun",
     "dismissible": true
-  }
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "interaction": {
+    "drilldown": true
+  },
+  "errors": {
+    "404": {
+      "title": "Page not found ",
+      "description": "The page you are looking for doesn’t exist or has been moved."
+    }
+  },
+  "search": {
+    "prompt": "How can I help you?"
+  },
+  "description": "Useful resources and documentation for all things related to the PuntHub platform"
 }
