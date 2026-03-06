@@ -1,14 +1,28 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "sequoia",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0f00ad",
+    "light": "#ffffff",
+    "dark": "#000000"
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "icon": "book-open-cover",
+          "href": "https://mintlify.com/docs"
+        },
+        {
+          "anchor": "Blog",
+          "icon": "newspaper",
+          "href": "https://mintlify.com/blog"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Guides",
@@ -22,7 +36,9 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "Affiliate Program",
+            "icon": "money-bills",
+            "tag": "New",
             "pages": [
               "essentials/settings",
               "essentials/navigation"
@@ -48,7 +64,9 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "API Integrations & Backend Architecture",
+        "icon": "boxes-stacked",
+        "hidden": true,
         "groups": [
           {
             "group": "API documentation",
@@ -67,31 +85,17 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/logoblacktransparent.png",
+    "dark": "/images/logoblacktransparent.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:help@punthub.fun"
       }
     ],
     "primary": {
@@ -118,5 +122,23 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "background": {
+    "decoration": "gradient"
+  },
+  "appearance": {
+    "strict": false,
+    "default": "light"
+  },
+  "fonts": {
+    "family": "Poppins",
+    "weight": 700,
+    "body": {
+      "weight": 500
+    }
+  },
+  "banner": {
+    "content": "Need help? Drop us an email at help@punthub.fun",
+    "dismissible": true
   }
 }
